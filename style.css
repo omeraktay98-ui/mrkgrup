@@ -1,0 +1,73 @@
+/* Genel Ayarlar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f7f7f7;
+}
+
+/* Menü */
+nav {
+  background: #0077cc;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Bölümler */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Anasayfa */
+#anasayfa {
+  background: #e0f7fa;
+}
+
+/* Yaptığımız İşler */
+.kartlar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.kart {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.kart:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* İletişim */
+#iletisim {
+  background: #ffe0b2;
+}
